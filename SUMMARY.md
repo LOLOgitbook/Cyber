@@ -3,6 +3,11 @@
 * [Kali Linux](README.md)
 * [Network Scanning with Nmap](network-scanning-with-nmap.md)
 
-## Group 1
+## 毕业设计
 
-* [数据集](group-1/shu-ju-ji.md)
+* [题目](bi-ye-she-ji/ti-mu.md)
+* [数据集](bi-ye-she-ji/shu-ju-ji.md)
+
+***
+
+* [Page 1](page-1.md)
