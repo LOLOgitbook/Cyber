@@ -19,5 +19,7 @@
     [https://github.com/rshrc/gait-recognition](https://github.com/rshrc/gait-recognition)\
     [http://www.cbsr.ia.ac.cn/users/szheng/?page\_id=71](http://www.cbsr.ia.ac.cn/users/szheng/?page_id=71)&#x20;
 
+基于深度学习的步态识别算法研&#x7A76;_（学位论文）_[哈尔滨工程大学](https://navi.cnki.net/knavi/detail?p=QJnWB6xib4Dr2eWSntLdyqB69DeUfWxU5i7c-AYg67tV3-D2EgIsWtk2c8EVbLo1JXsk1WNXISkXeoAf89Nw4SAu9EiiOTi0\&uniplatform=NZKPT)_2022_
+
 
 
