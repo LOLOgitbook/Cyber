@@ -10,4 +10,4 @@
 
 ***
 
-* [研究生题目](yan-jiu-sheng-ti-mu.md)
+* [研究生题目](page-1.md)
