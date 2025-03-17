@@ -67,5 +67,33 @@ cache:www.csdn.net
 
 通过使用 cache: 命令，你可以轻松地查看百度缓存的网页内容，特别是在网页暂时不可访问或已经被删除时。这对于网络安全分析、页面历史追溯等都非常有用。
 
+&#x20;(5)例子
+
+***
+
+示例2：查找网站运行的用户活动脚本和程序
+
+```
+site:thefreakishlybigbank.com filetype:asp
+site:thefreakishlybigbank.com filetype:cgi
+site:thefreakishlybigbank.com filetype:jsp
+```
+
+目的：
+
+• filetype:asp 查找目标网站上所有ASP（Active Server Pages）文件。
+
+• filetype:cgi 查找所有 CGI（Common Gateway Interface）脚本。
+
+• filetype:jsp 查找所有 JSP（JavaServer Pages）文件。
+
+
+
+• 这些命令的目的是查找目标网站上运行的脚本和程序，这些脚本通常用于处理用户输入、表单提交等功能。通过获取这些文件，侦察人员可以评估潜在的安全漏洞。例如，ASP、CGI 和 JSP 文件可能包含不安全的编程实践，易受到 SQL 注入、跨站脚本（XSS）等攻击。
+
+（6）Shodan
+
+
+
 
 
