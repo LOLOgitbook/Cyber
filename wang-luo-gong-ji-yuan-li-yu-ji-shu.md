@@ -199,3 +199,18 @@ USN: uuid:17079cb3-4e6b-4c94-80c5-02f7ae10d9f8
 ⚠️ 法律与伦理提示：\
 使用 Shodan 搜索时务必遵循相关法律法规与伦理标准，禁止未经授权的访问或攻击行为。
 
+
+
+3.2.2 whois 查询
+
+[https://reports.internic.net/cgi/whois?whois\_nic=csdn.net\&type=domain](https://reports.internic.net/cgi/whois?whois_nic=csdn.net\&type=domain)
+
+这个是whois找csdn的信息，里面
+
+```
+   Registrar: Alibaba Cloud Computing (Beijing) Co., Ltd.
+```
+
+[https://whois.aliyun.com/](https://whois.aliyun.com/) 继续找csdn.net 信息
+
+\
