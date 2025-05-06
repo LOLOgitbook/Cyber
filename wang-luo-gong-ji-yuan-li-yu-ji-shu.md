@@ -113,7 +113,7 @@ site:thefreakishlybigbank.com filetype:jsp
 
 （6）Shodan
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 你上传的图片显示的是 Shodan 搜索引擎 返回的一条设备信息。以下是详细说明：
 
@@ -243,4 +243,23 @@ USN: uuid:17079cb3-4e6b-4c94-80c5-02f7ae10d9f8
 
 nslookup可以查区域传送。每个区域zone相当于一个部门。
 
-\
+
+
+
+
+## 第六章 特洛伊木马
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
