@@ -38,3 +38,85 @@ TCP/IP 四层模型中：（1）网络接口层：该层处于实际的计算机
 
 网络空间包括互联网、电信网、计算机系统、嵌入式处理器、控制器系统。网络空间是人的生存空间，也是信息的生存环境。网络空间安全是人和信息对网络空间的基本要求。网络空间是所有信息系统的集合，而且复杂的巨系统，人在其中与信息相互作用、相互影响，
 
+不安全的代码会造成系统的不安全，从而导致安全事件的发生。
+
+3.1 什么是网络攻防技术
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-19 at 11.21.52 am.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-19 at 11.22.34 am.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-19 at 11.23.00 am.png" alt=""><figcaption></figcaption></figure>
+
+网络攻防技术：（1）主动攻击（2）被动攻击
+
+主动攻击：对被害者的消息进行更改或者拒绝用户使用资源的攻击方式。包括篡改信息、伪造信息、拒绝服务等。
+
+篡改信息：一个合法消息的某些部分未经授权被改变、删除，或者是消息被延迟、改变顺序等行为。
+
+伪造：某个实体（人或系统）发出含有其他实体身份嘻嘻等数据信息，假扮成其他实体，从而以欺骗方式获取一些合法用户的权利和特权的行为。
+
+拒绝服务：DOS, 该行为会导致对通讯设备正常使用或管理被无条件地中断。
+
+主动攻击无法防止。一般通过过滤和jiance
+
+&#x20; 抗击主动攻击：（1） 过滤：将外网流入内网的可疑消息直接丢弃，而不让其进入内网。比如防火墙
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-19 at 11.32.48 am.png" alt=""><figcaption></figcaption></figure>
+
+检测：对内网中可疑消息进行判断或评估的方法，在一定程度上也能起到防止攻击的作用。具体措施包括自动审计、入侵检测和完整性恢复等。
+
+被动攻击：攻击者不对数据信息做任何修改，但在未经授权用户同意与认可的情况下截取或者窃听授权用户的信息或者相关信息。通常包括窃听、流量分析等攻击方式，
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-19 at 11.36.41 am.png" alt=""><figcaption></figcaption></figure>
+
+如果信息没有采取加密措施，那么窃听者就可以完全掌握通信等全部内容。
+
+无线截获方式：
+
+流量分析：攻击者虽然从截获的消息中无法的到消息的真实内容，但攻击者还能通过观察这些数据报的模式，分析确定出通信双方的位置、通信的次数及消息的长度，获知相关的敏感消息。由于被动攻击不会对被攻击的信息作任何修改，基本不留攻击痕迹，很难检测。重点预防。被动攻击作为主动攻击的前奏。
+
+&#x20;攻防位置：本地攻击和远程攻击
+
+本地攻击：攻击者可以物理接触被害者的主机，并对该主机实施攻击的行为。远程攻击：攻击者通过网络对被害者进行攻击的行为。具体还可分为服务方攻击、客户端攻击与中间人攻击。
+
+服务方攻击（Server-side Attack):攻击者对被害者主机的各种网络服务（web,ftp,telnet等）进行攻击的行为。
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-19 at 11.49.47 am.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-19 at 11.50.07 am.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-19 at 11.52.12 am.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-19 at 11.57.42 am.png" alt=""><figcaption></figcaption></figure>
+
+无论用户输入什么密码都将成功登陆系统。
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-19 at 12.03.58 pm.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-19 at 12.05.41 pm.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-19 at 12.06.07 pm.png" alt=""><figcaption></figcaption></figure>
+
+&#x20; 如果用户提交的是这个语句
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-19 at 12.06.28 pm.png" alt=""><figcaption></figcaption></figure>
+
+这说明，该网页存在xss漏洞。能嵌入代码并执行，
+
+z
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
