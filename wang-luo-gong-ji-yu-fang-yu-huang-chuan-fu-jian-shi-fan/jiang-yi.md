@@ -402,7 +402,27 @@ ARP欺骗：计算机中维护着一个IP-MAC地址对应表，记录了IP地址
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-12-25 at 3.57.11 pm.png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-25 at 3.59.00 pm.png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-25 at 3.59.22 pm.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-25 at 3.59.29 pm.png" alt=""><figcaption></figcaption></figure>
+
+&#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-25 at 4.00.12 pm.png" alt=""><figcaption></figcaption></figure>
+
+4.3.3. 木马攻击
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-25 at 4.01.24 pm.png" alt=""><figcaption></figcaption></figure>
+
+木马具有很强的隐蔽性，木马特点：有效性、隐蔽性、顽固性、易植入性
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-25 at 4.03.26 pm.png" alt=""><figcaption></figcaption></figure>
+
+&#x20;
+
+&#x20;
 
 
 
