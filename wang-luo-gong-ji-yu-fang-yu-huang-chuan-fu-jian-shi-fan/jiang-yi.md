@@ -370,3 +370,41 @@ ARP欺骗：计算机中维护着一个IP-MAC地址对应表，记录了IP地址
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-12-25 at 12.10.01 pm.png" alt=""><figcaption></figcaption></figure>
 
+4.3.2 缓冲区溢出攻击
+
+缓冲区：包含相同数据类型实例的一个连续的计算机内存块，是3434程序运行期间在内存中分配的一个连续的区域，用于保存包括字符数组在内的各种数据类型。
+
+溢出：所填充的数据超出了原有的缓冲区边界。
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-25 at 3.45.17 pm.png" alt=""><figcaption></figcaption></figure>
+
+缓冲区溢出攻击原因：各种操作系统和应用软件上存在的缓冲区溢出问题数不胜数。
+
+缓冲区溢出漏洞攻击的危害：1. 导致程序运行失败、系统崩溃以及重新启动。2.利用缓冲区溢出执行非授权指令，甚至取得系统特权，进而进行各种非法操作。
+
+防御网络入侵以及入侵检测的重点之一：如何防止和检测出利用缓冲区溢出漏洞进行的攻击。
+
+溢出攻击原理：
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-25 at 3.50.54 pm.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-25 at 3.51.18 pm.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-25 at 3.51.46 pm.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-25 at 3.52.02 pm.png" alt=""><figcaption></figcaption></figure>
+
+产生溢出。
+
+堆溢出的工作方式与栈溢出的工作方式的不同的：堆没有压栈和入栈操作，而是分配和回收内存。
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-25 at 3.56.54 pm.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-25 at 3.57.11 pm.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+
