@@ -422,15 +422,27 @@ ARP欺骗：计算机中维护着一个IP-MAC地址对应表，记录了IP地址
 
 &#x20;隐蔽性：木马必须有能力长期潜伏于目标机器中而不被发现。一个隐蔽性差的木马往往会很容易被杀毒软件。
 
-木马的一般攻击：木马一般都是客户端/服务端程序的组合
+木马的一般攻击：木马一般都是客户端/服务端程序的组合.
 
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-30 at 11.17.58 am.png" alt=""><figcaption></figcaption></figure>
 
+(1)植入技术：攻击者向目标主机植入木马，是指攻击者通过各种方式将木马的服务端程序上传到目标主机的过程。![](<../.gitbook/assets/Screenshot 2025-12-30 at 11.19.37 am.png>)
 
+（2）自动加载技术：![](<../.gitbook/assets/Screenshot 2025-12-30 at 11.21.00 am.png>)
 
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-30 at 11.21.57 am.png" alt=""><figcaption></figcaption></figure>
+
+（3）隐藏技术
+
+木马程序与普通程序不同，启动后，不能出现任务栏 、任务管理器和服务管理器中，
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-30 at 11.23.30 am.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-30 at 11.23.43 am.png" alt=""><figcaption></figcaption></figure>
 
 &#x20;
 
-
+不使用进程--真隐藏。这种方法一般使用Windows系统动态链接库DLL来避开检测，Windows的所有API函数都是在DLL中实现的，它不包含程序的入口函数，因而不能独立地运行。一般都是由进程在需要的时候加载并调用的，所有在进程和服务列表中并不会出现这些DLL文件。DLL用于木马隐藏的方式：1. 使用攻击者的DLL文件替换掉Windows系统中正常的DLL
 
 
 

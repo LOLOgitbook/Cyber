@@ -16,4 +16,3 @@
 ## &#x20;网络攻击与防御-黄川-福建师范
 
 * [讲义](wang-luo-gong-ji-yu-fang-yu-huang-chuan-fu-jian-shi-fan/jiang-yi.md)
-* [Page 2](wang-luo-gong-ji-yu-fang-yu-huang-chuan-fu-jian-shi-fan/page-2.md)
