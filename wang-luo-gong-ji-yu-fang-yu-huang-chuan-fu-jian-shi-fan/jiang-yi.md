@@ -448,7 +448,125 @@ ARP欺骗：计算机中维护着一个IP-MAC地址对应表，记录了IP地址
 
 木马远程监控：获取目标机器信息，远程操作。&#x20;
 
-m4，d&#x20;
+欺骗
 
-&#x20;
+一种冒充身份通过认证以骗取信任的攻击方式。常见的欺骗攻击类型有：ip欺骗（使用其他计算机的IP地址来骗取连接，以获取信息或得到特权的一种欺骗方式。ARP欺骗（利用ARP协议中的缺陷把自己伪装成中间人，获取局域网内所有信息报文的一种欺骗方式。电子邮件欺骗（利用伪装或虚假的电子邮件发送方地址的欺骗形式。DNS欺骗，在域名与IP地址转换过程中实现的欺骗方式称为DNS欺骗。 Web欺骗，创造某个万维网网站的复制影像，以欺骗网站的用户进行点击的一种攻击方式。社会工程学攻击本质也是一种欺骗攻击，其本质是一种通过人际交流的方式获得信息的非技术渗透手段。
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 10.25.03 am.png" alt=""><figcaption></figcaption></figure>
+
+4.3.5拒绝服务攻击
+
+最常见的拒绝服务攻击行为：网络带宽攻击，连通性攻击。
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 10.27.07 am.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 10.27.50 am.png" alt=""><figcaption></figcaption></figure>
+
+&#x20;拒绝服务攻击的黑客工具
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 10.29.15 am.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 10.29.33 am.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 10.29.45 am.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 10.32.47 am.png" alt=""><figcaption></figcaption></figure>
+
+攻击者可以实施DDos攻击，并且反过来创建新的僵尸网络。
+
+4.3.6Web攻击
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 10.35.04 am.png" alt=""><figcaption></figcaption></figure>
+
+
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 10.35.57 am.png" alt=""><figcaption></figcaption></figure>
+
+
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 10.36.31 am.png" alt=""><figcaption></figcaption></figure>
+
+未验证参数，访问控制缺陷，账户及会话管理缺陷，跨站脚本漏洞，缓冲区溢出漏洞，命名注入漏洞，错误处理问题，远程管理漏洞。
+
+5. 网络防御技术
+
+5.1 信息收集防御技术。
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 10.46.38 am.png" alt=""><figcaption></figcaption></figure>
+
+面对攻击者的扫描，可采取的主要防御措施有：使用专用的扫描监测工具，防火墙系统，入侵检测系统，审计工具，蜜罐系统。
+
+（1）专用的扫描监测工具。在不常用的端口进行监听。
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 10.49.20 am.png" alt=""><figcaption></figcaption></figure>
+
+（2）防火墙系统
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 10.50.09 am.png" alt=""><figcaption></figcaption></figure>
+
+（3）使用入侵监测系统
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 10.50.57 am.png" alt=""><figcaption></figcaption></figure>
+
+（4）使用蜜罐系统
+
+（5）审计工具：审计日志，&#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 10.52.25 am.png" alt=""><figcaption></figcaption></figure>
+
+5.2 口令攻击防御技术
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 10.53.58 am.png" alt=""><figcaption></figcaption></figure>
+
+
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 10.54.44 am.png" alt=""><figcaption></figcaption></figure>
+
+强口令的特征：每45天更换一次，至少10个以上字符等。
+
+（2）口令管理策略：
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 10.56.34 am.png" alt=""><figcaption></figcaption></figure>
+
+（3）一次性口令
+
+
+
+5.3欺骗攻击防御技术
+
+1. 防范基本的IP欺骗
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 11.02.38 am.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 11.02.47 am.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 11.03.23 am.png" alt=""><figcaption></figcaption></figure>
+
+2.防范会话劫持攻击
+
+（1）加密：如果攻击者不能读取信息，就很难攻击（2）使用安全的协议，SSH。Telnet。VPN。（3）限制保护措施：
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 11.14.38 am.png" alt=""><figcaption></figcaption></figure>
+
+3. ARP欺骗攻击的监测与防御
+
+网络频繁掉线，网速莫名变慢，![](<../.gitbook/assets/Screenshot 2026-01-04 at 11.15.36 am.png>)
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 11.15.45 am.png" alt=""><figcaption></figcaption></figure>
+
+(1)绑定MAC地址（2）使用静态ARP缓冲（3）ARP服务器（4）使用防护软件（5）发现之后及时隔离
+
+4. Web欺骗防御技术
+
+&#x20;5.4 拒绝服务攻击的防御技术
+
+分布式拒绝服务攻击（DDoS)
+
+&#x20;防御手段（1）优化网络路由结构，理想情况下，提供的服务不仅要有多条与Internet的连接，而且最好有不同地理区域的连接。(3)安装入侵监测系统（4）与因特网服务供应商（ISP)合作
+
+DDoS攻击特点：洪水般的网络流量、耗用大量带宽
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-04 at 12.04.28 pm.png" alt=""><figcaption></figcaption></figure>
+
+
 
