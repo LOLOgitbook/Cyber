@@ -2,6 +2,7 @@
 
 * [Kali Linux](README.md)
 * [Network Scanning with Nmap](network-scanning-with-nmap.md)
+* [工作总结](gong-zuo-zong-jie.md)
 
 ## 毕业设计
 
