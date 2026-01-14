@@ -14,6 +14,7 @@
 * [研究生题目](page-1.md)
 * [网络攻击原理与技术](wang-luo-gong-ji-yuan-li-yu-ji-shu.md)
 
-## &#x20;网络攻击与防御-黄川-福建师范
+## &#x20;网络攻击与防御&#x20;
 
-* [讲义](wang-luo-gong-ji-yu-fang-yu-huang-chuan-fu-jian-shi-fan/jiang-yi.md)
+* [Page](wang-luo-gong-ji-yu-fang-yu/page.md)
+* [讲义-黄川-福建师范](wang-luo-gong-ji-yu-fang-yu/jiang-yi-huang-chuan-fu-jian-shi-fan.md)
